@@ -1,0 +1,462 @@
+{
+    "question": "2026학년도 1학기 개강일은 언제인가?",
+    "ground_truth": "2026년 3월 3일(화)",
+    "evidence": "1. 개강일 : 2026년 3월 3일(화)",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "관심과목 담기 대상은 누구인가?",
+    "ground_truth": "전학년",
+    "evidence": "관심과목 담기 전학년 1.27.(화) 10:00 - 1.30.(금) 16:00",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "관심과목 담기 기간은 언제인가?",
+    "ground_truth": "1.27.(화) 10:00 - 1.30.(금) 16:00",
+    "evidence": "관심과목 담기 전학년 1.27.(화) 10:00 - 1.30.(금) 16:00",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "2026학년도 1학기 4학년, 건축학 5학년, 수업연한초과자의 수강신청 일시는 언제인가?",
+    "ground_truth": "2.10.(화) 10:00 - 17:00",
+    "evidence": "4학년(7~8학기 등록 예정자), 건축학 5학년, 수업연한초과자 2.10.(화) 10:00 - 17:00",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "2026학년도 1학기 3학년의 수강신청 일시는 언제인가?",
+    "ground_truth": "2.11.(수) 10:00 - 17:00",
+    "evidence": "3학년(5~6학기 등록 예정자) 2.11.(수) 10:00 - 17:00",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "2026학년도 1학기 2학년의 수강신청 일시는 언제인가?",
+    "ground_truth": "2.12.(목) 10:00 - 17:00",
+    "evidence": "2학년(3~4학기 등록 예정자) 2.12.(목) 10:00 - 17:00",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "2026학년도 1학기 1학년과 전학년의 수강신청 일시는 언제인가?",
+    "ground_truth": "2.13.(금) 10:00 - 17:00",
+    "evidence": "1학년(1~2학기 등록 예정자) 전학년 2.13.(금) 10:00 - 17:00",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "2026학년도 1학기 신입생과 편입생의 수강신청 일시는 언제인가?",
+    "ground_truth": "2.27.(금) 10:00 - 17:00",
+    "evidence": "신입생, 편입생 2.27.(금) 10:00 - 17:00 · 일정이 변동될 수 있음",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청과목 확인 및 변경 기간은 언제인가?",
+    "ground_truth": "3.4.(수) - 3.9.(월) 10:00 - 17:00",
+    "evidence": "수강신청과목 확인 및 변경 전학년 3.4.(수) - 3.9.(월) 10:00 - 17:00",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청 철회 기간은 언제인가?",
+    "ground_truth": "3.25.(수) - 3.27.(금) 10:00 - 17:00",
+    "evidence": "수강신청 철회 전학년 3.25.(수) - 3.27.(금) 10:00 - 17:00",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "복학생이 수강신청하려면 반드시 먼저 해야 하는 것은 무엇인가?",
+    "ground_truth": "복학 신청",
+    "evidence": "복학생도 학년별로 정해진 기간에 수강신청해야 하며, 반드시 복학 신청을 해야 수강신청이 가능하다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청과 관련된 모든 신청은 무엇을 통해 이루어지는가?",
+    "ground_truth": "학사정보시스템",
+    "evidence": "수강신청과 관련된 모든 신청은 학사정보시스템을 통해 이루어진다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청, 변경 및 철회 시 기준으로 삼아야 하는 시간은 무엇인가?",
+    "ground_truth": "본교 서버 시간",
+    "evidence": "수강신청과 관련된 모든 시간은 본교 서버 시간을 기준으로 한다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "관심과목 담기 제도는 언제부터 시행되었는가?",
+    "ground_truth": "2013학년도 1학기부터",
+    "evidence": "나. 시행 시기 : 2013학년도 1학기부터 시행",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "관심과목 담기는 어디에서 신청하는가?",
+    "ground_truth": "학사정보시스템의 관심과목담기 메뉴",
+    "evidence": "라. 방법 : 학사정보시스템의 관심과목담기 메뉴에서 신청",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "관심과목으로 담을 수 있는 학점의 최대치는 얼마인가?",
+    "ground_truth": "최대 24학점",
+    "evidence": "관심 과목으로 담을 수 있는 학점은 최대 24학점으로 제한",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "관심과목 담기 기간이 지나면 관심과목담기 메뉴에서 무엇을 할 수 없게 되는가?",
+    "ground_truth": "과목을 추가·삭제할 수 없다.",
+    "evidence": "해당 기간이 지나면 관심과목담기 메뉴에서 더 이상 과목을 추가·삭제할 수 없다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "관심과목담기에 담는 것과 최종 수강신청의 관계는 어떻게 설명되어 있는가?",
+    "ground_truth": "별개의 행위이다.",
+    "evidence": "관심과목담기에 담는 것과 최종 수강신청은 별개의 행위",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "관심과목담기 기간에는 강의시간이 중복되어도 과목을 담을 수 있는가?",
+    "ground_truth": "예, 담을 수 있다.",
+    "evidence": "관심과목담기 기간에는 강의시간 중복에 상관없이 과목을 담을 수 있으나",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청 기간에는 강의시간이 중복된 과목을 신청할 수 있는가?",
+    "ground_truth": "아니오, 신청할 수 없다.",
+    "evidence": "수강신청 기간에는 강의시간이 중복된 과목은 신청이 되지 않는다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청 절차의 첫 단계는 무엇인가?",
+    "ground_truth": "학교홈페이지에서 강의시간표 확인",
+    "evidence": "수강신청 절차 : 학교홈페이지에서 강의시간표 확인 → 지도교수 수강 지도 → 인터넷 수강신청 → 수강신청확인서 인쇄 및 보관",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청 절차의 마지막 단계는 무엇인가?",
+    "ground_truth": "수강신청확인서 인쇄 및 보관",
+    "evidence": "수강신청 절차 : 학교홈페이지에서 강의시간표 확인 → 지도교수 수강 지도 → 인터넷 수강신청 → 수강신청확인서 인쇄 및 보관",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "일반적인 학기의 수강신청 가능 학점 범위는 어떻게 되는가?",
+    "ground_truth": "매 학기 6학점 이상 18학점까지",
+    "evidence": "수강신청은 매 학기 6학점(최종학기 3학점) 이상 18학점까지 할 수 있다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "최종학기의 최소 수강신청 학점은 얼마인가?",
+    "ground_truth": "3학점",
+    "evidence": "수강신청은 매 학기 6학점(최종학기 3학점) 이상 18학점까지 할 수 있다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "직전 학기에 16학점 이상 취득하고 성적이 B+(3.5) 이상이면 최대 몇 학점까지 신청할 수 있는가?",
+    "ground_truth": "21학점",
+    "evidence": "직전 학기에 16학점 이상 취득하고 성적이 B+(3.5) 이상이면 21학점까지 신청할 수 있다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수업연한 초과자가 학위 취득 학기에 한해 허용되는 예외는 무엇인가?",
+    "ground_truth": "6학점 미만 수강신청이 가능하다.",
+    "evidence": "수업연한 초과자도 매 학기 6학점 이상 18학점까지 수강해야 하나, 학위 취득 학기에 한해 6학점 미만 수강신청이 가능하다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "장학금 신청 시 기본이수학점의 원칙은 무엇인가?",
+    "ground_truth": "학기당 15학점 이상 취득",
+    "evidence": "장학금 신청 시 기본이수학점은 학기당 15학점 이상 취득함을 원칙으로 한다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "장학금 신청 시 4학년의 기본이수학점 기준은 몇 학점 이상인가?",
+    "ground_truth": "10학점 이상",
+    "evidence": "단, 4학년은 10학점 이상 취득한 자로 한다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "폐강 또는 개설 취소된 과목의 수강신청은 어떻게 처리되는가?",
+    "ground_truth": "무효 처리된다.",
+    "evidence": "폐강 또는 개설 취소된 과목의 수강신청은 무효 처리된다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강 변경 기간까지 총 수강신청 학점이 최저 기준에 미달되면 어떤 조치가 내려지는가?",
+    "ground_truth": "학사경고가 부여된다.",
+    "evidence": "수강 변경 기간까지 총 6학점(최종학기 3학점)에 미달되게 수강신청한 자는 학사경고가 부여된다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "교양필수, 전공기초, 전공필수, 교직과목은 원칙적으로 언제 수강해야 하는가?",
+    "ground_truth": "강의시간표에 지정된 학년·학기",
+    "evidence": "교양필수..., 전공기초, 전공필수, 교직과목은 강의시간표에 지정된 학년‧학기에 수강하는 것을 원칙으로 한다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "1, 2학년이 우선적으로 신청해야 하는 것은 무엇인가?",
+    "ground_truth": "교양필수(공통교양필수, 균형교양필수, 학문기초교양필수)",
+    "evidence": "1, 2학년은 교양필수(공통교양필수, 균형교양필수, 학문기초교양필수)를 우선적으로 신청해야 한다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "선수과목을 지정한 교과목은 누가 수강할 수 있는가?",
+    "ground_truth": "해당 선수과목을 이수한 학생",
+    "evidence": "선수과목을 지정한 교과목은 해당 선수과목을 이수한 학생만 수강할 수 있다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "강의 시간이 겹치는 과목은 수강신청할 수 있는가?",
+    "ground_truth": "아니오, 수강신청할 수 없다.",
+    "evidence": "강의 시간이 겹치는 과목은 수강신청할 수 없다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청하지 않은 과목의 성적은 인정되는가?",
+    "ground_truth": "아니오, 인정하지 않는다.",
+    "evidence": "수강신청하지 않은 과목의 성적은 인정하지 않는다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청한 과목을 수강하지 않을 경우 성적은 어떻게 처리되는가?",
+    "ground_truth": "F 또는 FA 처리된다.",
+    "evidence": "수강신청한 과목을 수강하지 않을 경우 그 과목의 성적은 “F” 또는 “FA” 처리된다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청 학점이월제도에서 다음 학기로 이월 가능한 최대 학점은 얼마인가?",
+    "ground_truth": "2학점",
+    "evidence": "2학점 내에서 다음 학기로 이월하여 추가 수강신청할 수 있도록 하는 제도",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수강신청 학점이월제도는 언제부터 시행되었는가?",
+    "ground_truth": "2011학년도부터",
+    "evidence": "시행 시기 : 2011학년도부터 연간으로 운영",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "1학기 발생 유휴학점 중 몇 학점 이상이면 이월대상에서 제외되는가?",
+    "ground_truth": "3학점 이상",
+    "evidence": "3학점 이상은 본인의 자발적 의사로 간주하여 이월대상에서 제외",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "2학기 유휴학점은 다음 학년으로 이월할 수 있는가?",
+    "ground_truth": "아니오, 이월할 수 없다.",
+    "evidence": "연간으로 운영(2학기 유휴학점은 다음 학년 이월 불가)",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "1학기 성적 평점 평균이 얼마 미만이면 학점이월제도 적용 제외 대상이 되는가?",
+    "ground_truth": "2.5 미만",
+    "evidence": "1학기 성적 평점 평균이 2.5 미만인 자",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "1차 폐강은 언제 이루어지는가?",
+    "ground_truth": "수강신청 기간 종료 후",
+    "evidence": "1차 폐강 : 수강신청 기간 종료 후",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "2차 폐강은 언제 이루어지는가?",
+    "ground_truth": "수강신청 과목 확인 및 변경 기간 종료 후",
+    "evidence": "2차 폐강 : 수강신청 과목 확인 및 변경 기간 종료 후",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "교양선택 과목의 폐강 기준 인원은 몇 명 미만인가?",
+    "ground_truth": "20명 미만",
+    "evidence": "교양선택 20명 미만",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "영어, PBL, FL 강의의 폐강 기준 인원은 몇 명 미만인가?",
+    "ground_truth": "10명 미만",
+    "evidence": "영어, PBL, FL강의 10명 미만",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수강 변경 기간은 언제인가?",
+    "ground_truth": "개강 1주차 내",
+    "evidence": "가. 수강 변경 기간 : 개강 1주차 내",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "이미 신청한 과목을 취소하거나 신규 과목을 신청할 때 담당 교수의 승인이 필요한가?",
+    "ground_truth": "아니오, 필요하지 않다.",
+    "evidence": "이미 신청한 과목을 취소하거나 신규 과목을 신청할 때 담당 교수의 승인은 필요하지 않다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "등록을 하지 않으면 수강신청은 어떻게 되는가?",
+    "ground_truth": "자동 취소된다.",
+    "evidence": "등록 기간에 등록을 반드시 해야 하며, 등록을 하지 않으면 수강신청이 자동 취소된다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강과목 철회의 1차 시기는 언제인가?",
+    "ground_truth": "개강 4주차",
+    "evidence": "1차 : 개강 4주차(전체 재학생)",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수강과목 철회의 2차 시기는 언제인가?",
+    "ground_truth": "개강 13주차",
+    "evidence": "2차 : 개강 13주차(8학기 이상 졸업 예정자만 가능...)",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "수강과목 철회 후 다른 과목을 추가로 신청할 수 있는가?",
+    "ground_truth": "아니오, 신청할 수 없다.",
+    "evidence": "수강과목 철회 시 다른 과목을 추가로 신청할 수 없다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "수강철회 신청 시 수강신청내역에는 무엇으로 표시되는가?",
+    "ground_truth": "수강철회여부에 “Y”로 표시된다.",
+    "evidence": "수강철회 신청 시 수강신청내역의 수강철회여부에 “Y”로 표시된다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "신입생(1학년)의 일괄 수강신청 과목으로 예시된 공통교양필수 교과목에는 무엇이 있는가?",
+    "ground_truth": "세종인을위한진로설계·전공탐색, 대학영어, 비판적사고와창의적글쓰기, 서양철학:쟁점과토론",
+    "evidence": "일괄 수강신청 과목 : 세종인을위한진로설계∙전공탐색, 대학영어, 비판적사고와창의적글쓰기, 서양철학:쟁점과토론 등 공통교양필수 교과목",
+    "question_type": "notice_summary",
+    "answerable": true
+}
+{
+    "question": "과목의 특성상 일괄 수강신청하지 않는 과목의 예시로 제시된 것은 무엇인가?",
+    "ground_truth": "코딩교과목, 미적분학1·2, 일반물리학1·2, 일반화학1·2, 일반생물학1·2",
+    "evidence": "과목의 특성상 코딩교과목, 미적분학1∙2, 일반물리학1∙2, 일반화학1∙2, 일반생물학1∙2 등은 일괄 수강신청하지 않는다",
+    "question_type": "notice_summary",
+    "answerable": true
+}
+{
+    "question": "미적분학2를 수강하기 위해 먼저 이수해야 하는 교양 과목은 무엇인가?",
+    "ground_truth": "미적분학1",
+    "evidence": "기준교과목 미적분학2 / 선이수교과목 미적분학1",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "세종사회봉사2를 수강하기 위해 먼저 이수해야 하는 교양 과목은 무엇인가?",
+    "ground_truth": "세종사회봉사1",
+    "evidence": "기준교과목 세종사회봉사2 / 선이수교과목 세종사회봉사1",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "대학원 석사과정 교과목 수강 신청 대상은 몇 학년 이상의 학생인가?",
+    "ground_truth": "3학년 이상(건축학전공은 4학년 이상)",
+    "evidence": "3학년(건축학전공은 4학년) 이상의 학생",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "대학원 석사과정 교과목은 학기당 최대 몇 학점까지 이수할 수 있는가?",
+    "ground_truth": "6학점 이내",
+    "evidence": "학기당 6학점 이내에서 총 12학점까지 이수할 수 있다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "대학원 석사과정 교과목은 총 몇 학점까지 이수할 수 있는가?",
+    "ground_truth": "총 12학점",
+    "evidence": "학기당 6학점 이내에서 총 12학점까지 이수할 수 있다.",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "대학원 석사과정 교과목 수강신청서는 언제 어디에 제출해야 하는가?",
+    "ground_truth": "수강변경 기간 내에 학사지원과에 직접 제출해야 한다.",
+    "evidence": "대학원과목 수강신청서를 작성하여 수강변경 기간 내에 학사지원과에 직접 제출해야 한다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "대학원 교과목으로 취득한 학점은 어떻게 인정되는가?",
+    "ground_truth": "수강신청 시 본인의 선택에 따라 학부 또는 대학원 취득 학점으로 인정되며, 변경이 불가하고 중복 인정되지 않는다.",
+    "evidence": "대학원 교과목을 수강하여 취득한 학점은 수강신청 시, 본인의 선택에 따라 학부 또는 대학원 취득 학점으로 인정한다(변경이 불가하며 중복 인정되지 않는다).",
+    "question_type": "notice_summary",
+    "answerable": true
+}
+{
+    "question": "학·석사 연계과정생이 24학점까지 신청하려면 필요한 학기 말 성적 평점 평균 기준은 무엇인가?",
+    "ground_truth": "A0(4.0) 이상",
+    "evidence": "학·석사 연계과정생은 4학년에 한하여 학기 말 성적 평점 평균이 A0(4.0) 이상인 자는 ... 24학점까지 신청할 수 있다",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "타 학과 전공선택 인정교과목은 수강신청 시 어떤 이수구분으로 표기되는가?",
+    "ground_truth": "교양",
+    "evidence": "수강신청 시에는 교양으로 표기되며 다음 학기 수강신청 전에 전공선택으로 이수구분 변경",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "타 학과 전공과목 최대 인정 학점을 초과해 이수한 경우 초과 학점의 과목은 무엇으로 인정되는가?",
+    "ground_truth": "교양선택",
+    "evidence": "타 학과 전공과목 최대 인정 학점을 초과하여 이수한 경우 초과된 학점의 과목은 교양선택으로 인정된다.",
+    "question_type": "notice_fact",
+    "answerable": true
+}
+{
+    "question": "2024학년도 입학자부터 동일계열의 타 학과 전공선택 인정교과목은 자연생명/IT/첨단융합/공과계열에서 최대 몇 학점까지 인정되는가?",
+    "ground_truth": "12학점",
+    "evidence": "2024학년도 입학자부터 ... 자연생명/IT/첨단융합/공과계열 12학점",
+    "question_type": "single_fact",
+    "answerable": true
+}
+{
+    "question": "2024학년도 입학자부터 동일계열의 타 학과 전공선택 인정교과목은 인문사회/경상호텔관광/예체능계에서 최대 몇 학점까지 인정되는가?",
+    "ground_truth": "18학점",
+    "evidence": "2024학년도 입학자부터 ... 인문사회/경상호텔관광/예체능계 18학점까지 인정",
+    "question_type": "single_fact",
+    "answerable": true
+}

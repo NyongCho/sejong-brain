@@ -1,0 +1,103 @@
+# --- Secrets / local config ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Common secret/key material
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+
+# App config files that often contain keys (keep *.example.*)
+config.json
+config.*.json
+*.local.json
+*.local.yaml
+*.local.yml
+*.local.toml
+*.local.ini
+*.local.cfg
+*.local.conf
+secrets.*
+credentials.*
+!*.example.json
+!*.example.yaml
+!*.example.yml
+!*.example.toml
+!*.example.ini
+!*.example.cfg
+!*.example.conf
+
+# --- Data / artifacts (RAG) ---
+data/
+datasets/
+dataset/
+storage/
+vectorstore/
+vectordb/
+chroma/
+chromadb/
+faiss/
+qdrant/
+milvus/
+
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.arrow
+*.csv
+*.tsv
+*.jsonl
+*.ndjson
+
+# Common binary data/doc files
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+*.hwp
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+wenv/
+ENV/
+env/
+
+# --- Node / frontend ---
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+
+# --- Logs / caches ---
+*.log
+logs/
+log/
+.cache/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Codex / agent workspace ---
+.agent/
